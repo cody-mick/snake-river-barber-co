@@ -1,9 +1,63 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
 /* Nav Bar */
 .nav-bar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
 }
 
 .nav-bar-links {
@@ -52,4 +106,34 @@
 
 .nav-bar-logo-img {
 	width: 100px;
+}
+
+/* Hero */
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("/src/assets/hero-image.jpg");
+	height: 88vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	color: white;
+	font-family: "Work Sans", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-bar-links {
+		display: none;
+	}
 }
