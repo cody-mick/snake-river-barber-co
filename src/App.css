@@ -6,6 +6,7 @@
 
 * {
 	margin: 0;
+	font-family: "Work Sans", sans-serif;
 }
 
 html,
@@ -58,6 +59,7 @@ h6 {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-top: 0.5rem;
+	background: rgb(247, 247, 247);
 }
 
 .nav-bar-links {
@@ -123,6 +125,8 @@ h6 {
 	text-align: center;
 	color: white;
 	font-family: "Work Sans", sans-serif;
+	letter-spacing: 5px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 600;
 	position: absolute;
@@ -131,8 +135,111 @@ h6 {
 	transform: translate(-50%, -50%);
 }
 
+/* Content Section */
+.content-section {
+	background: rgb(247, 247, 247);
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 15px;
+}
+
+.content-img {
+	width: 250px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+/* Footer */
+footer {
+	background: rgb(247, 247, 247);
+}
+
+.location-hours {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.address {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.address > a {
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: black;
+	transition: all ease-in-out 0.2s;
+}
+
+.address > a:hover {
+	cursor: pointer;
+	color: #26578d;
+}
+
+.location-icon {
+	width: 25px;
+}
+
+.divider {
+	width: 33%;
+	height: 1px;
+	margin: 15px auto;
+	background: rgb(211, 209, 209);
+}
+
+.copyright-socials {
+	text-align: center;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.socials {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.social-icon {
+	width: 25px;
+}
+
+.social-icon:hover {
+	cursor: pointer;
+}
+
+/* General Components */
+
+.btn {
+	border: 2px solid #26578d;
+	background-color: #fff;
+	color: #26578d;
+	font-weight: 600;
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin-top: 10px;
+	transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background: #26578d;
+	color: #fff;
+}
+
 @media screen and (max-width: 768px) {
-	.nav-bar-links {
-		display: none;
-	}
 }
