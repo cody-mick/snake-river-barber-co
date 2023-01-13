@@ -10,19 +10,24 @@ export default function Footer() {
 	return (
 		<footer>
 			<div className="location-hours">
-				<div className="address-contact">
+				<img
+					className="footer-logo-img"
+					src={snakeLogo}
+					alt="Snake River Barber Co Logo"
+				/>
+				<div className="address">
 					<h3>Location</h3>
-					<div className="address">
-						<a
-							href="https://www.google.com/maps/place/Snake+River+Barber+Co./@43.4813583,-111.9960497,17z/data=!3m1!4b1!4m5!3m4!1s0x53545f1c945df8c1:0x8d3ca6e04c0145b5!8m2!3d43.4813544!4d-111.9934748"
-							target="blank">
-							<p>Snake River Barber Co</p>
-							<p>1821 Hoopes Ave</p>
-							<p>Idaho Falls, ID, 83404</p>
-						</a>
-					</div>
+					<a
+						href="https://www.google.com/maps/place/Snake+River+Barber+Co./@43.4813583,-111.9960497,17z/data=!3m1!4b1!4m5!3m4!1s0x53545f1c945df8c1:0x8d3ca6e04c0145b5!8m2!3d43.4813544!4d-111.9934748"
+						target="blank">
+						<p>Snake River Barber Co</p>
+						<p>1821 Hoopes Ave</p>
+						<p>Idaho Falls, ID, 83404</p>
+					</a>
 					<div className="contact">
-						<a href="mailto:email@email.com">email@email.com</a>
+						<a href="mailto:booking@snakeriverbarber.com">
+							booking@snakeriverbarber.com
+						</a>
 						<a href="tel: +1 208-497-0018">(208) 497-0018</a>
 					</div>
 				</div>
@@ -40,11 +45,6 @@ export default function Footer() {
 			</div>
 			<div className="divider"></div>
 			<div className="copyright-socials">
-				<img
-					className="footer-logo-img"
-					src={snakeLogo}
-					alt="Snake River Barber Co Logo"
-				/>
 				<p className="copyright">
 					&copy; {currentYear} Snake River Barber Co.
 				</p>
