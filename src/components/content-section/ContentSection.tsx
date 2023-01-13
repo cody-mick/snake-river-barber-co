@@ -2,9 +2,14 @@ import React from "react";
 import Button from "../general/Button";
 import placeholderImage from "../../assets/barbershop-placeholder-2.jpg";
 
-export default function ContentSection() {
+export default function ContentSection({ reverse }: any) {
 	return (
-		<div className="content-section">
+		<div
+			className={
+				reverse === "yes"
+					? "content-section-reverse"
+					: "content-section"
+			}>
 			<div className="content">
 				<div className="content-text">
 					<h3>Content Section Title</h3>

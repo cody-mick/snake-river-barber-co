@@ -11,9 +11,9 @@ function App() {
 		<div className="App">
 			<NavBar />
 			<Hero />
-			<ContentSection />
-			<ContentSection />
-			<ContentSection />
+			<ContentSection reverse={"no"} />
+			<ContentSection reverse={"yes"} />
+			<ContentSection reverse={"no"} />
 			<Footer />
 		</div>
 	);
