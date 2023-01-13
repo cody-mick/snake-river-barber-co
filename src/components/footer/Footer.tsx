@@ -18,9 +18,13 @@ export default function Footer() {
 							src={locationIcon}
 							alt="Location icon"
 						/> */}
-						<a href="https://www.google.com/maps/place/1821+Hoopes+Ave,+Idaho+Falls,+ID+83404/@43.4813583,-111.9960497,17z/data=!3m1!4b1!4m5!3m4!1s0x53545edda576c10f:0xc19a7e577b472f49!8m2!3d43.4813544!4d-111.9934748">
-							1821 Hoopes Ave, Idaho Falls, ID 83404
+						<a href="https://www.google.com/maps/place/Snake+River+Barber+Co./@43.4813583,-111.9960497,17z/data=!3m1!4b1!4m5!3m4!1s0x53545f1c945df8c1:0x8d3ca6e04c0145b5!8m2!3d43.4813544!4d-111.9934748">
+							<p>Snake River Barber Co</p>
+							<p>1821 Hoopes Ave</p>
+							<p>Idaho Falls, ID, 83404</p>
 						</a>
+						<a href="mailto:email@email.com">email@email.com</a>
+						<a href="tel: +1 208-497-0018">(208) 497-0018</a>
 					</div>
 				</div>
 				<div className="hours">

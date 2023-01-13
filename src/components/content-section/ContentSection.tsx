@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../general/Button";
-import placeholderImage from "../../assets/barbershop-placeholder.jpg";
+import placeholderImage from "../../assets/barbershop-placeholder-2.jpg";
 
 export default function ContentSection() {
 	return (
