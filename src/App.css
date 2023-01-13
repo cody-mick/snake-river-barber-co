@@ -196,7 +196,7 @@ footer {
 .divider {
 	width: 33%;
 	height: 1px;
-	margin: 15px auto;
+	margin: 25px auto;
 	background: rgb(211, 209, 209);
 }
 
@@ -206,6 +206,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .socials {
@@ -220,6 +221,14 @@ footer {
 
 .social-icon:hover {
 	cursor: pointer;
+}
+
+.hours {
+	letter-spacing: 1.5px;
+}
+
+.footer-logo-img {
+	width: 150px;
 }
 
 /* General Components */

@@ -1,7 +1,7 @@
 import facebookIcon from "../../assets/facebook.svg";
 import instagramIcon from "../../assets/instagram.svg";
 import linkedinIcon from "../../assets/linkedin.svg";
-import locationIcon from "../../assets/location-crosshairs-solid.svg";
+import snakeLogo from "../../assets/snake-river-barber-co-pole.png";
 
 export default function Footer() {
 	const currentYear = new Date().getFullYear().toString();
@@ -25,17 +25,26 @@ export default function Footer() {
 				</div>
 				<div className="hours">
 					<h3>Hours</h3>
-					<p>Monday Closed</p>
+					<p>
+						Monday <strong>Closed</strong>
+					</p>
 					<p>Tuesday 9AM - 1PM, 2PM - 6PM</p>
 					<p>Wednesday 9AM - 1PM, 2PM - 6PM</p>
 					<p>Thursday 9AM - 1PM, 2PM - 6PM</p>
 					<p>Friday 9AM - 1PM, 2PM - 6PM</p>
 					<p>Saturday 9AM - 3PM</p>
-					<p>Sunday Closed</p>
+					<p>
+						Sunday <strong>Closed</strong>
+					</p>
 				</div>
 			</div>
 			<div className="divider"></div>
 			<div className="copyright-socials">
+				<img
+					className="footer-logo-img"
+					src={snakeLogo}
+					alt="Snake River Barber Co Logo"
+				/>
 				<p className="copyright">
 					&copy; {currentYear} Snake River Barber Co.
 				</p>
