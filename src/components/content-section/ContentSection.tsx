@@ -1,8 +1,12 @@
 import React from "react";
 import Button from "../general/Button";
-import placeholderImage from "../../assets/barbershop-placeholder-2.jpg";
 
-export default function ContentSection({ reverse, children, title }: any) {
+export default function ContentSection({
+	reverse,
+	children,
+	title,
+	image,
+}: any) {
 	return (
 		<div
 			className={
@@ -25,8 +29,8 @@ export default function ContentSection({ reverse, children, title }: any) {
 			<div className="content-img">
 				<img
 					className="content-img_img"
-					src={placeholderImage}
-					alt="Placeholder image"
+					src={image}
+					alt="Barbershop Images"
 				/>
 			</div>
 		</div>
