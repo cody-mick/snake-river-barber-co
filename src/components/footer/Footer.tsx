@@ -25,9 +25,6 @@ export default function Footer() {
 						<p>Idaho Falls, ID, 83404</p>
 					</a>
 					<div className="contact">
-						<a href="mailto:booking@snakeriverbarber.com">
-							booking@snakeriverbarber.com
-						</a>
 						<a href="tel: +1 208-497-0018">(208) 497-0018</a>
 					</div>
 				</div>
