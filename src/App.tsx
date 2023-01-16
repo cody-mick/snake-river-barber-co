@@ -24,9 +24,9 @@ function App() {
 				title="The Highest Quality"
 				image={barbershopInstruments}>
 				We pride ourselves on delivering quality services and building
-				relationships with our clients, so that you look and feel your
-				best. We run by appointment only, so click below to schedule
-				with us now!
+				relationships with our clients, so that you can look and feel
+				your best. We run by appointment only, so click below to
+				schedule with us now!
 			</ContentSection>
 			<Footer />
 		</div>
