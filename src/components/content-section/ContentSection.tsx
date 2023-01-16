@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../general/Button";
 import placeholderImage from "../../assets/barbershop-placeholder-2.jpg";
 
-export default function ContentSection({ reverse }: any) {
+export default function ContentSection({ reverse, children, title }: any) {
 	return (
 		<div
 			className={
@@ -12,17 +12,14 @@ export default function ContentSection({ reverse }: any) {
 			}>
 			<div className="content">
 				<div className="content-text">
-					<h3>Content Section Title</h3>
-					<p>
-						Man bun cornhole distillery polaroid squid. Typewriter
-						tumblr lo-fi, biodiesel pop-up kitsch jean shorts blue
-						bottle photo booth venmo kombucha gochujang tofu. Four
-						loko cornhole jean shorts cloud bread. Gochujang prism
-						bushwick.
-					</p>
+					<h2>{title}</h2>
+					<p>{children}</p>
 				</div>
 				<div className="content-button">
-					<Button text="Book Now" />
+					<Button
+						text="Book Now"
+						link="https://squareup.com/appointments/book/1Y6HMQMQYT2XG"
+					/>
 				</div>
 			</div>
 			<div className="content-img">
