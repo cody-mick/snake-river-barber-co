@@ -1,5 +1,5 @@
 import React from "react";
-import mainLogo from "../../assets/snake-river-barber-co-logo.png";
+import mainLogo from "../../assets/snake-river-barber-co-logo-optimized.png";
 
 export default function NavBarLogo() {
 	return (

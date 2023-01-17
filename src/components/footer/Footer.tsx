@@ -1,7 +1,7 @@
 import facebookIcon from "../../assets/facebook.svg";
 import instagramIcon from "../../assets/instagram.svg";
 import linkedinIcon from "../../assets/linkedin.svg";
-import snakeLogo from "../../assets/snake-river-barber-co-pole.png";
+import snakeLogo from "../../assets/barbershop-pole-logo-optimized.png";
 
 export default function Footer() {
 	const currentYear = new Date().getFullYear().toString();
