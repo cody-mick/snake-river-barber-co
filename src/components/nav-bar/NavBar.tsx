@@ -8,6 +8,10 @@ export default function NavBar() {
 			<NavBarLogo />
 			<div className="nav-bar-links">
 				<NavBarLink
+					text="Shop"
+					linkTo="https://shop.snakeriverbarberco.hair"
+				/>
+				<NavBarLink
 					text="Schedule Now"
 					linkTo="https://squareup.com/appointments/book/1Y6HMQMQYT2XG"
 				/>
